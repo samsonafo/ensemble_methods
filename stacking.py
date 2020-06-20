@@ -52,6 +52,3 @@ clf.fit(X_train,y_train)
 y_predict = clf.predict(X_test) 
 score_clf = f1_score(y_test,y_predict, average='micro')
 print('The score of the Stacking Classifier is {}'.format(score_clf))
-
-
-
